@@ -3904,3 +3904,22 @@ void solve() {
     cout<<abs(a-b)<<endl;
   }
 #MATH  
+
+
+
+
+
+
+
+
+https://codeforces.com/problemset/problem/545/C
+ else if(coordinate[i]+height[i]<coordinate[i+1])
+            {
+            	 tree++;
+            	 coordinate[i]=coordinate[i]+height[i];
+            }
+    }
+    if(n==1)
+    	cout<<1;
+    else
+    	cout<<tree+2;
